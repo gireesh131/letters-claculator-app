@@ -1,0 +1,37 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.typing {
+  background-color: transparent;
+  color: #ffffff;
+  border: #e4e7eb 1px solid;
+  outline: none;
+  height: 25px;
+}
+.button {
+  height: 60px;
+  width: 250px;
+  color: #219a6f;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+  background-color: #ffffff;
+}
